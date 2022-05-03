@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: disaac/golang-cli-template:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/golang-cli-template:latest
