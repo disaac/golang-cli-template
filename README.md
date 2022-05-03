@@ -14,7 +14,7 @@ A general purpose project template for golang CLI applications
 
 <!--te-->
 
-[![Test](https://github.com/sdunixgeek/golang-cli-template/actions/workflows/test.yml/badge.svg)](https://github.com/sdunixgeek/golang-cli-template/actions/workflows/test.yml) [![golangci-lint](https://github.com/sdunixgeek/golang-cli-template/actions/workflows/lint.yml/badge.svg)](https://github.com/sdunixgeek/golang-cli-template/actions/workflows/lint.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/sdunixgeek/golang-cli-template)](https://goreportcard.com/report/github.com/sdunixgeek/golang-cli-template) [![Go Reference](https://pkg.go.dev/badge/github.com/sdunixgeek/golang-cli-template.svg)](https://pkg.go.dev/github.com/sdunixgeek/golang-cli-template) [![codecov](https://codecov.io/gh/sdunixgeek/golang-cli-template/branch/main/graph/badge.svg?token=Y5K4SID71F)](https://codecov.io/gh/sdunixgeek/golang-cli-template)
+[![Test](https://github.com/disaac/golang-cli-template/actions/workflows/test.yml/badge.svg)](https://github.com/disaac/golang-cli-template/actions/workflows/test.yml) [![golangci-lint](https://github.com/disaac/golang-cli-template/actions/workflows/lint.yml/badge.svg)](https://github.com/disaac/golang-cli-template/actions/workflows/lint.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/disaac/golang-cli-template)](https://goreportcard.com/report/github.com/disaac/golang-cli-template) [![Go Reference](https://pkg.go.dev/badge/github.com/disaac/golang-cli-template.svg)](https://pkg.go.dev/github.com/disaac/golang-cli-template) [![codecov](https://codecov.io/gh/disaac/golang-cli-template/branch/main/graph/badge.svg?token=Y5K4SID71F)](https://codecov.io/gh/disaac/golang-cli-template)
 
 This template serves as a starting point for golang commandline applications it is based on golang projects that I consider high quality and various other useful blog posts that helped me understanding golang better.
 
@@ -25,19 +25,19 @@ This template serves as a starting point for golang commandline applications it 
 - [Gitlab CI](.gitlab-ci.yml) Configuration (Lint, Test, Build, Release)
 - [cobra](https://cobra.dev/) example setup including tests
 - [Makefile](Makefile) - with various useful targets and documentation (see Makefile Targets)
-- [Github Pages](_config.yml) using [jekyll-theme-minimal](https://github.com/pages-themes/minimal) (checkout [https://falcosuessgott.github.io/golang-cli-template/](https://falcosuessgott.github.io/golang-cli-template/))
+- [Github Pages](_config.yml) using [jekyll-theme-minimal](https://github.com/pages-themes/minimal) (checkout [https://disaac.github.io/golang-cli-template/](https://disaac.github.io/golang-cli-template/))
 - [pre-commit-hooks](https://pre-commit.com/) for formatting and validating code before committing
 - [semantic-releaser](https://semantic-release.gitbook.io/semantic-release/)
 
 # Project Layout
-* [assets/](https://pkg.go.dev/github.com/sdunixgeek/golang-cli-template/assets) => docs, images, etc
-* [cmd/](https://pkg.go.dev/github.com/sdunixgeek/golang-cli-template/cmd)  => commandline configurartions (flags, subcommands)
-* [pkg/](https://pkg.go.dev/github.com/sdunixgeek/golang-cli-template/pkg)  => packages that are okay to import for other projects
-* [internal/](https://pkg.go.dev/github.com/sdunixgeek/golang-cli-template/pkg)  => packages that are only for project internal purposes
+* [assets/](https://pkg.go.dev/github.com/disaac/golang-cli-template/assets) => docs, images, etc
+* [cmd/](https://pkg.go.dev/github.com/disaac/golang-cli-template/cmd)  => commandline configurartions (flags, subcommands)
+* [pkg/](https://pkg.go.dev/github.com/disaac/golang-cli-template/pkg)  => packages that are okay to import for other projects
+* [internal/](https://pkg.go.dev/github.com/disaac/golang-cli-template/pkg)  => packages that are only for project internal purposes
 
 # How to use this template
 ```sh
-bash <(curl -s https://raw.githubusercontent.com/sdunixgeek/golang-cli-template/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/disaac/golang-cli-template/main/install.sh)
 ```
 
 # Demo Application

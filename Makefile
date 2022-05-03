@@ -37,7 +37,7 @@ cover: ## display test coverage
 
 PHONY: fmt
 fmt: ## format go files
-	gofumpt -w -s  .
+	gofumpt -w .
 
 PHONY: lint
 lint: ## lint go files
@@ -58,4 +58,3 @@ docker-run:
 .PHONY: pre-commit
 pre-commit:	## run pre-commit hooks
 	pre-commit run
-

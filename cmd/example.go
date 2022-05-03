@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/sdunixgeek/golang-cli-template/internal/convert"
-	"github.com/sdunixgeek/golang-cli-template/pkg/example"
+	"github.com/disaac/golang-cli-template/internal/convert"
+	"github.com/disaac/golang-cli-template/pkg/example"
 	"github.com/spf13/cobra"
 )
 
